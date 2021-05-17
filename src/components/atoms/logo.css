@@ -1,0 +1,14 @@
+.jhlogo--small {
+    height: 50px;
+    border-radius: 100px;
+}
+
+.jhlogo--medium {
+    height: 75px;
+    border-radius: 100px;
+}
+
+.jhlogo--large {
+    height: 100px;
+    border-radius: 100px;
+}
