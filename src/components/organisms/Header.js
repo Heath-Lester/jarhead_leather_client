@@ -20,7 +20,7 @@ export const Header = ({ style, ...props }) => {
   } else if (style === "left") {
     return (
       <header className="wrapper--left">
-        <Logo lettering={false} size={"large"} />
+        <Logo lettering={false} size={"medium"} />
         <Navigation />
       </header>
     )
