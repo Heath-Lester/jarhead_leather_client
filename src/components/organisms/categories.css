@@ -1,0 +1,10 @@
+
+
+.categories {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+}
