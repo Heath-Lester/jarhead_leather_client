@@ -1,4 +1,6 @@
 import React from 'react';
+import { Logo } from "../components/atoms/Logo"
+import { Navigation } from "../components/molecules/Navigation"
 
 import { Header } from '../components/organisms/Header';
 
@@ -9,10 +11,12 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const Center = Template.bind({});
+Center.args = {
+  style: 'center'
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const Left = Template.bind({});
+Left.args = {
+  style: 'left'
+};

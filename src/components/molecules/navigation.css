@@ -1,33 +1,34 @@
-/* Full */
+
+/*** Full ***/
+
+/* small */
 .navigation--small--full {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .navigation--small--full > a {
     font-size: small;
     font-weight: 500;
 }
 
+/* medium */
 .navigation--medium--full {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
-
 .navigation--medium--full > a {
     font-size: medium;
     font-weight: 500;
 }
 
-
+/* large */
 .navigation--large--full {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .navigation--large--full > a {
     font-size: large;
     font-weight: 500;
@@ -38,72 +39,82 @@
     color: #111;
 }
 
-/* Left */
-.navigation--small--left {
+
+/*** Left ***/
+
+/* small */
+/* .navigation--small--left {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .navigation--small--left > a {
     font-size: small;
     font-weight: 500;
-}
+} */
 
+/* medium */
 .navigation--medium--left {
     display: flex;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: flex-end;
     align-items: center;
+    padding-right: 8%;
 }
-
 .navigation--medium--left > a {
+    min-width: max-content;
     font-size: medium;
     font-weight: 500;
+    margin-left: 15%;
 }
 
-
-.navigation--large--left {
+/* large */
+/* .navigation--large--left {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .navigation--large--left > a {
     font-size: large;
     font-weight: 500;
-}
+} */
 
-/* Right */
-.navigation--small--right {
+
+/*** Right ***/
+
+/* small */
+/* .navigation--small--right {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 5%;
 }
-
 .navigation--small--right > a {
     font-size: small;
     font-weight: 500;
-}
+} */
 
+/* medium */
 .navigation--medium--right {
     display: flex;
-    justify-content: space-around;
+    flex: 1;
     align-items: center;
+    padding-left: 8%;
 }
-
 .navigation--medium--right > a {
+    min-width: max-content;
     font-size: medium;
     font-weight: 500;
+    margin-right: 15%;
 }
 
-
-.navigation--large--right {
+/* large */
+/* .navigation--large--right {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .navigation--large--right > a {
     font-size: large;
     font-weight: 500;
-}
+} */

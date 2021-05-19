@@ -16,12 +16,12 @@ export const Navigation = ({ split, size, ...props }) => {
         return (
             <div className={`navigation--${size}--${split}`} {...props}>
                 <a className="navigation__aTag" href="">Jarhead Leather Co.</a>
+                <a className="navigation__aTag" href="">Catalog</a>
             </div>
         )
     } else if (split === 'right') {
         return (
             <div className={`navigation--${size}--${split}`} {...props}>
-                <a className="navigation__aTag" href="">Catalog</a>
                 <a className="navigation__aTag" href="">Custom Order</a>
                 <a className="navigation__aTag" href="">Cart</a>
             </div>
