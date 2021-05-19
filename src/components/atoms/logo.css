@@ -1,0 +1,17 @@
+.jhlogo--small {
+    height: 50px;
+    border-radius: 100px;
+    object-fit: contain;
+}
+
+.jhlogo--medium {
+    height: 75px;
+    border-radius: 100px;
+    object-fit: contain;
+}
+
+.jhlogo--large {
+    height: 100px;
+    border-radius: 100px;
+    object-fit: contain;
+}

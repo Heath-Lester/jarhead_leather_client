@@ -1,0 +1,38 @@
+.wrapper--left, .wrapper--center {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.wrapper--center {
+  flex-flow: column;
+  justify-content: center;
+  padding-bottom: 27px;
+  padding-top: 15px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.wrapper--left {
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+.wrapper--center > .jhlogo--large {
+  position: absolute;
+  margin-top: 40px;
+}
+
+.wrapper--left > .jhlogo--medium {
+  padding-left: 1%;
+}
