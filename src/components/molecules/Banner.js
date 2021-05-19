@@ -10,7 +10,7 @@ import "./banner.css"
 
 export const Banner = ({ interval, ...props }) => {
     return (
-        <Carousel>
+        <Carousel className="carousel">
             <Carousel.Item interval={interval}>
                 <img
                     className="carouse--image"

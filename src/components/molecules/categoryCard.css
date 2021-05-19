@@ -1,0 +1,25 @@
+.categoryCard {
+    position: relative;
+    width: min-content;
+    height: min-content;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.categoryCard>h2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.categoryCard>img {
+    transition: transform 1s ease;
+    height: 400px
+}
+
+.categoryCard>img:hover {
+    transform: scale(1.1);
+}
